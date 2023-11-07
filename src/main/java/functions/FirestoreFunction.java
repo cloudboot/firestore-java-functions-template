@@ -7,7 +7,7 @@ import io.cloudevents.CloudEvent;
 import java.util.logging.Logger;
 
 public class FirestoreFunction implements CloudEventsFunction {
-  private static final Logger logger = Logger.getLogger(FirebaseFirestore.class.getName());
+  private static final Logger logger = Logger.getLogger(FirestoreFunction.class.getName());
 
   @Override
   public void accept(CloudEvent event) throws InvalidProtocolBufferException {
